@@ -18,6 +18,7 @@ public class FarMart{
 		files[0]="Persons.csv";
 		files[1]= "Items.csv";
 		files[2]="Stores.csv";
+		//scans in the files and creates arraylists of the stores, items, and persons
 		for(String p : files) {
 			Scanner s = new Scanner(p);
 			n = Integer.parseInt(s.nextLine());
@@ -38,6 +39,8 @@ public class FarMart{
 		}
 	
 		readFiles();
-		DataConverter a = new DataConverter();
-		a.DataConverter(it, st, per);
+		DataConverter a = new DataConverter(it, st, per);
+		a.convert();
 	}
+}
+	
