@@ -17,7 +17,22 @@ public class Items{
 	}
 
 
+	public String getCode() {
+		return code;
+	}
 
+	public String getType() {
+		return type;
+	}
+
+	public String getUnit() {
+		return unit;
+	}
+
+
+	public String getPrice() {
+		return price;
+	}
 
 	public String toString() {
 		return null;
