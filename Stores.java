@@ -22,6 +22,34 @@ public class Stores{
 		this.country = country;
 	}
 
+	public String getCode() {
+		return code;
+	}
+
+	public String getManagerCode() {
+		return managerCode;
+	}
+
+	public String getStreet() {
+		return street;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public String getZip() {
+		return zip;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
 	public String toString() {
 		return null;
 		
