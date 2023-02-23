@@ -11,6 +11,46 @@ public class Persons{
 	private String country;
 	
 	
+	public String getCode() {
+		return code;
+	}
+
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+
+	public String getLastName() {
+		return lastName;
+	}
+
+
+	public String getStreet() {
+		return street;
+	}
+
+
+	public String getCity() {
+		return city;
+	}
+
+
+	public String getState() {
+		return state;
+	}
+
+
+	public String getCip() {
+		return cip;
+	}
+
+
+	public String getCountry() {
+		return country;
+	}
+
+
 	public Persons(String code, String firstName, String lastName, String street, String city, String state, String cip,
 			String country) {
 		super();
